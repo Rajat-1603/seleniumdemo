@@ -16,7 +16,8 @@ public class Famepilot_Login {
 	
 	@BeforeMethod
 	public void setUp() {
-		System.setProperty("webdriver.chrome.driver",".\\driver\\chromedriver.exe");
+//		System.setProperty("webdriver.chrome.driver",".\\driver\\chromedriver.exe");
+//		WebDriver driver = new ChromeDriver();
 		driver = new ChromeDriver();
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));

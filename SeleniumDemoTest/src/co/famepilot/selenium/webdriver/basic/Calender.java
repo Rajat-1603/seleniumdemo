@@ -15,8 +15,8 @@ public class Calender {
 	
 	@BeforeMethod
 	public void setUp() {
-		System.setProperty("webdriver.chrome.driver",".\\driver\\chromedriver.exe");
-		driver = new ChromeDriver();
+		
+		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		driver.manage().window().maximize();
