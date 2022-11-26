@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Famepilot WebApp Automation Test Suite">
+  <test name="Famepilot App test">
+      
+      <parameter name="loginbutton" value="//a[@class='ui teal animated button']"/>
+      <parameter name="emailid" value="rajatgoel666@gmail.com"/>
+      <parameter name="password" value="test@1234"/>
+      
+      
+      <classes>
+      	<class name="co.famepilot.selenium.webdriver.basic.Famepilot_Login"/>
+      </classes>
+  
+   </test> 
+  </suite> 

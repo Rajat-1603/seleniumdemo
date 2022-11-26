@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Famepilot WebApp Automation Test Suite]">
+  <test thread-count="5" name="Famepilot App test(failed)">
+    <parameter name="password" value="test@1234"/>
+    <parameter name="emailid" value="rajatgoel666@gmail.com"/>
+    <parameter name="loginbutton" value="//a[@class=&#039;ui teal animated button&#039;]"/>
+    <classes>
+      <class name="co.famepilot.selenium.webdriver.basic.Famepilot_Login">
+        <methods>
+          <include name="verifyEmptyUsernameFieldTest"/>
+          <include name="verifyPageTitleTest"/>
+          <include name="verifyFamepilotLogoTest"/>
+          <include name="verifyValidlogindetailsTest"/>
+          <include name="setUp"/>
+          <include name="verifytermsconditionlinkTest"/>
+          <include name="verifyInvalidCredentialsTest"/>
+          <include name="verifyEmptyPasswordFieldTest"/>
+          <include name="verifyInvalidEmailTest"/>
+          <include name="verifyEmplyfieldsTest"/>
+          <include name="tearDown"/>
+          <include name="verifyTermsconditionsTest"/>
+          <include name="verifyInvalidPasswordTest"/>
+          <include name="verifycrossbuttonTest"/>
+        </methods>
+      </class> <!-- co.famepilot.selenium.webdriver.basic.Famepilot_Login -->
+    </classes>
+  </test> <!-- Famepilot App test(failed) -->
+</suite> <!-- Failed suite [Famepilot WebApp Automation Test Suite] -->

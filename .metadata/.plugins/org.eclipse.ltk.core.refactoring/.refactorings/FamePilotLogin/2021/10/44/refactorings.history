@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Login.java&apos; to &apos;SeliniumAmazon/src&apos;&#x0D;&#x0A;- Original project: &apos;FamePilotLogin&apos;&#x0D;&#x0A;- Destination element: &apos;SeliniumAmazon/src&apos;&#x0D;&#x0A;- Original element: &apos;co.famepilot.selenium.webdriver.basic.Login.java&apos;" description="Copy compilation unit" destination="=SeliniumAmazon/src" element1="/src&lt;co.famepilot.selenium.webdriver.basic{Login.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1635456036710" units="1" version="1.0"/>
+</session>
