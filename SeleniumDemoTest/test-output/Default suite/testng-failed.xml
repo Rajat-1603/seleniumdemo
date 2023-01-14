@@ -5,20 +5,9 @@
     <classes>
       <class name="co.famepilot.selenium.webdriver.basic.Famepilot_Login">
         <methods>
-          <include name="verifyEmptyUsernameFieldTest"/>
-          <include name="verifyPageTitleTest"/>
-          <include name="verifyFamepilotLogoTest"/>
+          <include name="tearDown"/>
           <include name="verifyValidlogindetailsTest"/>
           <include name="setUp"/>
-          <include name="verifytermsconditionlinkTest"/>
-          <include name="verifyInvalidCredentialsTest"/>
-          <include name="verifyEmptyPasswordFieldTest"/>
-          <include name="verifyInvalidEmailTest"/>
-          <include name="verifyEmplyfieldsTest"/>
-          <include name="tearDown"/>
-          <include name="verifyTermsconditionsTest"/>
-          <include name="verifyInvalidPasswordTest"/>
-          <include name="verifycrossbuttonTest"/>
         </methods>
       </class> <!-- co.famepilot.selenium.webdriver.basic.Famepilot_Login -->
     </classes>
